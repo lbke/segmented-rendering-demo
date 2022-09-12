@@ -85,6 +85,19 @@
   max-width: 300px;
 }
 
+.fire {
+  color: #ff8080;
+  border-color: #ff8080;
+}
+.water {
+  color: #87aade;
+  border-color: #87aade;
+}
+.grass {
+  color: #aade87;
+  border-color: #aade87;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
