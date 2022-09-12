@@ -16,6 +16,8 @@ The key ingredients are:
 - a proxy server that can rewrite URLs. For instance Next.js Edge middlewares.
 - optionnaly a backend that can set cookies using the Set-Cookie header (you can also set cookies client-side with JS)
 
+Live demo: https://segmented-rendering-demo.vercel.app
+
 
 ## Getting Started
 
