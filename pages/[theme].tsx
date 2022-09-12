@@ -6,7 +6,6 @@ import styles from "../styles/Home.module.css";
 type ThemeId = "fire" | "water" | "grass" | "none";
 
 export default function Home({ theme }: { theme: ThemeId }) {
-  console.log("theme", theme);
   /**
    * Logic to set the theme cookie, here using an API route and Set-Cookie header
    * (you could use client-side JavaScript as well)
@@ -87,6 +86,10 @@ export default function Home({ theme }: { theme: ThemeId }) {
       </main>
 
       <footer className={styles.footer}>
+        <a href="https://github.com/lbke/segmented-rendering-demo">
+          Contribute to this demo here:
+          https://github.com/lbke/segmented-rendering-demo
+        </a>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
