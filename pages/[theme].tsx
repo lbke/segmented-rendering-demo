@@ -36,7 +36,7 @@ export default function Home({ theme }: { theme: ThemeId }) {
         </h1>
 
         <p className={styles.description}>
-          It's dangerous to go alone! Pick your theme.
+          It{"'"}s dangerous to go alone! Pick your theme.
         </p>
         <p className={styles["bg" + theme]}>
           <em>Current theme: {theme}</em>
@@ -50,7 +50,7 @@ export default function Home({ theme }: { theme: ThemeId }) {
             className={styles.card + " " + styles.fire}
           >
             <h2>Fire</h2>
-            <p>It's a hot topic</p>
+            <p>It{"'"}s a hot topic</p>
           </a>
 
           <a
