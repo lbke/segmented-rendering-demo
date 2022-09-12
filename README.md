@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Segmented Rendering Demo
+
+Read the article: https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/
+
+More on the theory of SSR (advanced): https://tinyurl.com/ssr-theory
+
+This Next.js application demonstrates a Jamstack pattern named "Segmented Rendering", which enables static personalization.
+
+It is very similar to "Personalization at-the-edge" as Vercel puts it. Segmented Rendering is a more generic pattern, that can also be implemented in a more traditional architecture. 
+
+The key ingredients are:
+
+- a static rendering framework. It's even better if it supports per-request or deferred server-rendering (Next, Gatsby).
+- a proxy server that can rewrite URLs. For instance Next.js Edge middlewares.
+- optionnaly a backend that can set cookies using the Set-Cookie header (you can also set cookies client-side with JS)
+
+
 ## Getting Started
 
 First, run the development server:

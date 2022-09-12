@@ -22,7 +22,10 @@ export default async (req: NextRequest) => {
     res.cookies.set("theme", theme);
   } else {
     // delete cookie if theme is not valid
-    res.cookies.delete("theme");
+    // FIXME: doesn't seem to add a proper Set-Cookie header
+    // and set("theme", null) won't work either
+    //res.cookies.delete("theme");
+    res.cookies.set("theme", "none");
   }
   return res;
 };

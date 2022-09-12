@@ -97,6 +97,25 @@
   color: #aade87;
   border-color: #aade87;
 }
+.none {
+  color: inherit;
+}
+.bgfire {
+  background-color: #ff8080;
+
+}
+.bgwater {
+  background-color: #87aade;
+      filter: brightness(0.85);
+
+}
+.bggrass {
+  background-color: #aade87;
+
+}
+.bgnone {
+  background-color: inherit;
+}
 
 .card:hover,
 .card:focus,
